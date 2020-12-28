@@ -11,12 +11,11 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class CheckBoxAcitivty extends AppCompatActivity {
+public class CheckBoxActivity extends AppCompatActivity {
 
     Button apply;
 
@@ -66,7 +65,7 @@ public class CheckBoxAcitivty extends AppCompatActivity {
         apply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CheckBoxAcitivty.this, map + "", Toast.LENGTH_LONG).show();
+                Toast.makeText(CheckBoxActivity.this, map + "", Toast.LENGTH_LONG).show();
             }
         });
 
